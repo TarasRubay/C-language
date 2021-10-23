@@ -71,6 +71,21 @@ void main() {
 		{
 		case 1:
 			cout << "1 - array identification, print, swap event and not event numbers\n";
+			cout << "\nchar** " << sizeof(char**);
+			cout << "\nchar* " << sizeof(char*);
+			cout << "\nsizeof(int**)" << sizeof(int**);
+			cout << "\nsizeof(int*)" << sizeof(int*);
+			cout << "\nsizeof(double**)" << sizeof(double**);
+			cout << "\nsizeof(float*)" << sizeof(float*) << endl;
+			cout << "sizeof(int)" << sizeof(int) << endl;
+			cout << "sizeof(INT64)" << sizeof(INT64) << endl;
+			short int s;
+			cout << "sizeof(shot int)" << sizeof(s) << endl;
+			cout << "sizeof(char)" << sizeof(char) << endl;
+			cout << "sizeof(char32_t)" << sizeof(char32_t) << endl;
+			cout << "sizeof(double)" << sizeof(double) << endl;
+			cout << "sizeof(float)" << sizeof(float) << endl;
+			cout << "sizeof(bool)" << sizeof(bool) << endl;
 			int ar[siz_t1];
 			ar_ind(ar, siz_t1);
 			print(ar, siz_t1);
