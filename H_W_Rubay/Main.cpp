@@ -79,6 +79,8 @@ void main() {
 			cout << "\nsizeof(float*)" << sizeof(float*) << endl;
 			cout << "sizeof(int)" << sizeof(int) << endl;
 			cout << "sizeof(INT64)" << sizeof(INT64) << endl;
+			cout << "sizeof(INT16)" << sizeof(INT16) << endl;
+			cout << "sizeof(INT32)" << sizeof(INT32) << endl;
 			short int s;
 			cout << "sizeof(shot int)" << sizeof(s) << endl;
 			cout << "sizeof(char)" << sizeof(char) << endl;

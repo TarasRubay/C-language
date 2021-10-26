@@ -3,6 +3,8 @@
 #include <Windows.h>
 #include <iomanip>
 #include <ctime>
+
+
 using namespace std;
 void print_task(int you_position);
 ///////////////////////////////////////////////////////////////////        task 1
